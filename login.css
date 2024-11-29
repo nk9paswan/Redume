@@ -1,3 +1,4 @@
+
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
@@ -9,7 +10,7 @@ body {
     margin: 0;
 }
 
-.login-container {
+.age-container {
     width: 100%;
     max-width: 400px;
     background-color: #ffffff;
@@ -18,7 +19,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.login-form h2 {
+.age-form h2 {
     margin-bottom: 20px;
     text-align: center;
     color: #333;
@@ -34,7 +35,7 @@ body {
     font-weight: bold;
 }
 
-.form-group input {
+.form-group select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -53,18 +54,4 @@ button {
 
 button:hover {
     background-color: #0056b3;
-}
-
-.signup-link {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.signup-link a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.signup-link a:hover {
-    text-decoration: underline;
 }
