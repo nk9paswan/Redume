@@ -1,25 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Age Selection</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="login-container">
-        <form class="login-form">
-            <h2>Login</h2>
+    <div class="age-container">
+        <form class="age-form">
+            <h2>Select Your Age</h2>
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="age">Age</label>
+                <select id="age" required>
+                    <option value="" disabled selected>Select your age</option>
+                    <option value="under_18">Under 18</option>
+                    <option value="18_25">18 - 25</option>
+                    <option value="26_35">26 - 35</option>
+                    <option value="36_50">36 - 50</option>
+                    <option value="above_50">Above 50</option>
+                </select>
             </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter your password" required>
-            </div>
-            <button type="submit">Log In</button>
-            <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+            <button type="submit">Continue</button>
         </form>
     </div>
 </body>
